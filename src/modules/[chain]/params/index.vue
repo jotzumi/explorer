@@ -44,11 +44,11 @@ onMounted(() => {
       <ArrayObjectElement :value="store.appVersion?.items" :thead="false" />
     </div>
 
-    <!-- Node Information -->
+    <!-- Node Information 
     <div class="bg-base-100 px-4 pt-3 pb-4 rounded-sm mt-6">
       <div class="text-base mb-3 text-main">{{ store.nodeVersion?.title }}</div>
       <ArrayObjectElement :value="store.nodeVersion?.items" :thead="false" />
-    </div>
+    </div> -->
   </div>
 </template>
 
