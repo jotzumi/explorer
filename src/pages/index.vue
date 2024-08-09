@@ -67,7 +67,7 @@ const chainStore = useBlockchain();
     >
       <h2 class="mb-6">Featured Blockchains 🔥</h2>
     </div>
-/*
+<!--
     <div
       v-if="featured.length > 0"
       class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5"
@@ -78,7 +78,7 @@ const chainStore = useBlockchain();
         :name="chain.chainName"
       />
     </div>
-*/
+-->
     <div
       class="flex items-center rounded-lg bg-base-100 border border-gray-200 dark:border-gray-700 mt-10"
     >
