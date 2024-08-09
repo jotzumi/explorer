@@ -38,11 +38,11 @@ onMounted(() => {
     <CardParameter :cardItem="store.distribution" />
     <!-- Slashing Parameters -->
     <CardParameter :cardItem="store.slashing" />
-    <!-- Application Version -->
+    <!-- Application Version 
     <div class="bg-base-100 px-4 pt-3 pb-4 rounded-sm mt-6">
       <div class="text-base mb-3 text-main">{{ store.appVersion?.title }}</div>
       <ArrayObjectElement :value="store.appVersion?.items" :thead="false" />
-    </div>
+    </div> -->
 
     <!-- Node Information 
     <div class="bg-base-100 px-4 pt-3 pb-4 rounded-sm mt-6">
