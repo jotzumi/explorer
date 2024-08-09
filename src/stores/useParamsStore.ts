@@ -68,10 +68,10 @@ export const useParamStore = defineStore('paramstore', {
       title: 'Application Version',
       items: {},
     },
-    nodeVersion: {
+    /*nodeVersion: {
       title: 'Node Information',
       items: {},
-    },
+    },*/
   }),
   getters: {
     blockchain() {
