@@ -1,0 +1,56 @@
+{
+	"chainId": "symphony-testnet-2",
+	"chainName": "symphony",
+	"rpc": "https://symphony-testnet-rpc.jotzumi.com",
+	"rest": "https://symphony-testnet-api.jotzumi.com",
+	"bip44": {
+		"coinType": 60
+	},
+	"coinType": 60,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "symphony",
+		"bech32PrefixAccPub": "symphonypub",
+		"bech32PrefixValAddr": "symphonyvaloper",
+		"bech32PrefixValPub": "symphonyvaloperpub",
+		"bech32PrefixConsAddr": "symphonyvalcons",
+		"bech32PrefixConsPub": "symphonyvalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "NOTE",
+			"coinMinimalDenom": "note",
+			"coinDecimals": 6,
+			"coinGeckoId": "symphony"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "NOTE",
+			"coinMinimalDenom": "note",
+			"coinDecimals": 6,
+			"coinGeckoId": "symphony",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "NOTE",
+		"coinMinimalDenom": "note",
+		"coinDecimals": 6,
+		"coinGeckoId": "symphony"
+	},
+	"features": [
+		"ibc-transfer",
+		"ibc-go",
+		"eth-address-gen",
+		"eth-key-sign"
+	]
+}
