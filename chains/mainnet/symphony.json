@@ -2,13 +2,13 @@
 	"chain_name": "symphony",
 	"api": [
 	  {
-		"address": "https://symphony-testnet-api.jotzumi",
+		"address": "https://symphony-testnet-api.jotzumi.com",
 		"provider": "Jotzumi"
 	  }
 	],
 	"rpc": [
 	  {
-		"address": "https://symphony-testnet-rpc.jotzumi",
+		"address": "https://symphony-testnet-rpc.jotzumi.com",
 		"provider": "Orchestra Labs"
 	  }
 	],
