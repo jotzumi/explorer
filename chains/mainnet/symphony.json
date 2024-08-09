@@ -9,7 +9,7 @@
 	"rpc": [
 	  {
 		"address": "https://symphony-testnet-rpc.jotzumi.com",
-		"provider": "Orchestra Labs"
+		"provider": "Jotzumi"
 	  }
 	],
 	"snapshot_provider": "",

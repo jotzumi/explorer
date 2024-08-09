@@ -1,0 +1,29 @@
+{
+	"chain_name": "fiamma-testnet",
+	"api": [
+	  {
+		"address": "https://fiamma-testnet-api.mictonode.com",
+		"provider": "Jotzumi"
+	  }
+	],
+	"rpc": [
+	  {
+		"address": "https://fiamma-testnet-rpc.mictonode.com",
+		"provider": "Jotzumi"
+	  }
+	],
+	"snapshot_provider": "",
+	"sdk_version": "",
+	"coin_type": "118",
+	"min_tx_fee": "100",
+	"addr_prefix": "fiamma",
+	"logo": "/logos/fiamma.jpeg",
+	"assets": [
+	  {
+		"base": "ufia",
+		"symbol": "FIA",
+		"exponent": "6",
+		"logo": "/logos/fiamma.jpeg"
+	  }
+	]
+  }
