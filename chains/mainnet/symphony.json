@@ -1,5 +1,5 @@
 {
-	"chain_name": "symphony",
+	"chain_name": "symphony-testnet",
 	"api": [
 	  {
 		"address": "https://symphony-testnet-api.jotzumi.com",
